@@ -71,7 +71,7 @@
 </template>
 <script>
 import { mapState } from 'vuex'
-import Logo from '~/components/Logo.vue'
+import Logo from '~/components/core/Logo'
 export default {
   name: 'DashboardNavigation',
   components: {
