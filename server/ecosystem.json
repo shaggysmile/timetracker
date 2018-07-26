@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name"        : "timetracking.api",
+    "script"      : "src",
+    "watch"       : true,
+    "env" : {
+      "NODE_ENV": "production"
+    }
+  }]
+}

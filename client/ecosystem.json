@@ -1,0 +1,7 @@
+{
+  "apps" : [{
+    "name"        : "tt.client.room5.cafe",
+    "script": "npm",
+    "args": "run start"
+  }]
+}

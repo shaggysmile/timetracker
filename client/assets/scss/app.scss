@@ -1,0 +1,15 @@
+// @import "~font-awesome";
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+body {
+  min-height: 100vh;
+  background: #7F00FF;
+}
+
+.is-transparent {
+  background-color: transparent!important;
+}

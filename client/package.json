@@ -1,0 +1,53 @@
+{
+  "name": "timetracking",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Gennadiy Ukhanov <shaggysmile@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "15002"
+    }
+  },
+  "dependencies": {
+    "@feathersjs/authentication-client": "^1.0.2",
+    "@feathersjs/client": "^3.4.4",
+    "@feathersjs/feathers": "^3.1.4",
+    "@feathersjs/socketio-client": "^1.1.0",
+    "@nuxtjs/font-awesome": "^1.0.3",
+    "cookie-storage": "^3.1.0",
+    "feathers-vuex": "^1.1.4",
+    "moment-timezone": "^0.5.14",
+    "node-sass": "^4.7.2",
+    "nuxt": "^1.4.0",
+    "nuxt-buefy": "0.0.4",
+    "sass-loader": "^6.0.6",
+    "socket.io-client": "^2.1.0",
+    "vue-i18n": "^7.6.0",
+    "vue-moment": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.0.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
+  }
+}
